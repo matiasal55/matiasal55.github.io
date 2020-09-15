@@ -15,8 +15,8 @@ Sitio web del Centro Municipal de Formación Profesional N°2 Manuel Belgrano, u
 Repositorio: https://github.com/matiasal55/cmfp2
 Producción: http://matiasal55.github.io/cmfp2
 
-Linkedin: https://www.linkedin.com/in/matiasalarcon/
-Codepen: https://codepen.io/matiasalarcon
+##### Linkedin: https://www.linkedin.com/in/matiasalarcon/
+##### Codepen: https://codepen.io/matiasalarcon
 
 <!--
 **matiasal55/matiasal55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

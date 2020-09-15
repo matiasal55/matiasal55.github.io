@@ -1,6 +1,14 @@
 ### Matias Rubén Alarcón
 ### Desarrollador Frontend Trainee
 
+Hola. Me llamo Matias y tengo 29 años. Estoy cursando la Tecnicatura en Desarrollo Web en la Universidad Nacional de La Matanza y paralelamente aprendo cosas por mi cuenta. Tengo conocimientos intermedios de HTML, CSS y Javascript y además uso herramientas que me facilitan el proceso de desarrollo como Gulp (automatizador de tareas), Pug (compilador y transpilador de HTML), Sass (compilador y transpilador de CSS), Babel (transpilador de Javascript 6) y Webpack (empaquetador de módulos). Tengo dos proyectos en mi perfil:
+
+#### Aperture Academy
+Sitio web de cursos online. Proyecto realizado originalmente en 2019 como trabajo práctico para la materia "Programación Web 1" de la tecnicatura. En esa primera versión se trabajó grupalmente y se utilizaron HTML, CSS, Javascript y JQuery. En 2020 hice una nueva versión trabajando con transpiladores, la cual está terminada como se planteó originalmente y a partir de ahí la idea es ir implementando los conocimientos que voy adquiriendo con el tiempo. Por ejemplo, se está construyendo un CRUD de cursos a través de una API Rest propia subida a Firebase.
+
+#### CMFP N°2 - Morón
+Sitio web del Centro Municipal de Formación Profesional N°2 Manuel Belgrano, ubicado en la ciudad de Morón (Buenos Aires, Argentina) donde realicé los cursos de Redes Informáticas y Telefonía IP. Es un proyecto de rediseño del sitio web, donde además de información del curso se suma la opción de inscripción online (actualmente es presencial) y un Area de Alumnos renovado. En construcción.
+
 <!--
 **matiasal55/matiasal55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

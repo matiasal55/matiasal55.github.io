@@ -32,8 +32,8 @@ Online courses website. Project originally carried out in 2019 as a practical wo
 #### CMFP N°2 - Morón
 Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, located in the city of Morón (Buenos Aires, Argentina) where I took the Computer Networks and IP Telephony courses. It is a website redesign project, where in addition to the course information, the online registration option is added (currently it is face-to-face) and a renewed Student Area. In construction.
 
-##### Repository: https://github.com/matiasal55/cmfp2
-##### Production: http://matiasal55.github.io/cmfp2
+#### Repository: https://github.com/matiasal55/cmfp2
+#### Production: http://matiasal55.github.io/cmfp2
 <hr>
 
 ##### Linkedin: https://www.linkedin.com/in/matiasalarcon/

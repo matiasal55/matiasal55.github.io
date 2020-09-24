@@ -1,6 +1,6 @@
 ### Matias Rubén Alarcón
 ### Desarrollador Frontend Trainee / Trainee Frontend Developer
-
+<hr>
 :es:
 
 Hola. Me llamo Matias y tengo 29 años. Estoy cursando la Tecnicatura en Desarrollo Web en la Universidad Nacional de La Matanza y paralelamente aprendo cosas por mi cuenta. Tengo conocimientos intermedios de HTML, CSS y Javascript y además uso herramientas que me facilitan el proceso de desarrollo como Gulp (automatizador de tareas), Pug (compilador y transpilador de HTML), Sass (compilador y transpilador de CSS), Babel (transpilador de Javascript 6) y Webpack (empaquetador de módulos). Actualmente me encuentro haciendo dos cursos online: de PHP (a través del programa Codo a Codo ofrecido por el Gobierno de la Ciudad de Buenos Aires) y de Testing de Software (dictado por el Centro Universitario de Vicente Lopez a través de la Fundación PROEM) y aprendiendo los fundamentos de NodeJS.
@@ -35,6 +35,7 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
 ##### Repository: https://github.com/matiasal55/cmfp2
 ##### Production: http://matiasal55.github.io/cmfp2
 <hr>
+
 ##### Linkedin: https://www.linkedin.com/in/matiasalarcon/
 ##### Codepen: https://codepen.io/matiasalarcon
 <!--

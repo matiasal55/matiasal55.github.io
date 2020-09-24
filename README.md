@@ -16,10 +16,7 @@ Sitio web de cursos online. Proyecto realizado originalmente en 2019 como trabaj
 Sitio web del Centro Municipal de Formación Profesional N°2 Manuel Belgrano, ubicado en la ciudad de Morón (Buenos Aires, Argentina) donde realicé los cursos de Redes Informáticas y Telefonía IP. Es un proyecto de rediseño del sitio web, donde además de información del curso se suma la opción de inscripción online (actualmente es presencial) y un Area de Alumnos renovado. En construcción.
 ##### Repositorio: https://github.com/matiasal55/cmfp2
 ##### Producción: http://matiasal55.github.io/cmfp2
-
-##### Linkedin: https://www.linkedin.com/in/matiasalarcon/
-##### Codepen: https://codepen.io/matiasalarcon
-
+<hr>
 :uk:
 
 Hi. My name is Matias and I'm 29. I'm studying Web Development Technical and I'm learning some languages and programming tools by my side.I have knowledges about HTML, CSS and Javascript and also uso tools like Gulp, Pug, Sass, Babel and Webpack. In addition to the technical, I'm studying PHP, Fundamentals of Software Testing (online lessons) and NodeJS (self-taught).
@@ -37,7 +34,9 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
 
 ##### Repository: https://github.com/matiasal55/cmfp2
 ##### Production: http://matiasal55.github.io/cmfp2
-
+<hr>
+##### Linkedin: https://www.linkedin.com/in/matiasalarcon/
+##### Codepen: https://codepen.io/matiasalarcon
 <!--
 **matiasal55/matiasal55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

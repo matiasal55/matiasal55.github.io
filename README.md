@@ -36,6 +36,21 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
 #### Production: http://matiasal55.github.io/cmfp2
 <hr>
 <div>
+  <b>Knowledges:</b>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/html5.svg" width="50" height="50">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/css3.svg" width="50" height="50">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/javascript.svg" width="50" height="50">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/java.svg" width="50" height="50">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/sass.svg" width="50" height="50">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/babel.svg" width="50" height="50">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/mysql.svg" width="50" height="50">
+  <b>Now I'm learning</b>
+   <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/node-dot-js.svg" width="50" height="50">
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/php.svg" width="50" height="50">
+   <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/webpack.svg" width="50" height="50">
+</div>
+<br>
+<div>
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/linkedin.svg" width="30" height="30">
 <b>https://www.linkedin.com/in/matiasalarcon/</b>
 </div>

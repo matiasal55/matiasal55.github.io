@@ -14,8 +14,8 @@ Sitio web de cursos online. Proyecto realizado originalmente en 2019 como trabaj
 
 #### CMFP N°2 - Morón
 Sitio web del Centro Municipal de Formación Profesional N°2 Manuel Belgrano, ubicado en la ciudad de Morón (Buenos Aires, Argentina) donde realicé los cursos de Redes Informáticas y Telefonía IP. Es un proyecto de rediseño del sitio web, donde además de información del curso se suma la opción de inscripción online (actualmente es presencial) y un Area de Alumnos renovado. En construcción.
-##### Repositorio: https://github.com/matiasal55/cmfp2
-##### Producción: http://matiasal55.github.io/cmfp2
+#### Repositorio: https://github.com/matiasal55/cmfp2
+#### Producción: http://matiasal55.github.io/cmfp2
 <hr>
 :uk:
 
@@ -37,18 +37,11 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
 <hr>
 
 ##### Linkedin: https://www.linkedin.com/in/matiasalarcon/
-##### Codepen: https://codepen.io/matiasalarcon
-<!--
-**matiasal55/matiasal55** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<div>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/linkedin.svg" width="30" height="30">
+<b>https://www.linkedin.com/in/matiasalarcon/</b>
+</div>
+<div>
+<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/codepen.svg" width="30" height="30">
+<b>https://codepen.io/matiasalarcon</b>
+</div>

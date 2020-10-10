@@ -35,8 +35,6 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
 #### Repository: https://github.com/matiasal55/cmfp2
 #### Production: http://matiasal55.github.io/cmfp2
 <hr>
-
-##### Linkedin: https://www.linkedin.com/in/matiasalarcon/
 <div>
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/linkedin.svg" width="30" height="30">
 <b>https://www.linkedin.com/in/matiasalarcon/</b>

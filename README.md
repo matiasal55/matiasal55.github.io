@@ -3,7 +3,7 @@
 <hr>
 :es:
 
-Hola. Me llamo Matias y tengo 29 años. Estoy cursando la Tecnicatura en Desarrollo Web en la Universidad Nacional de La Matanza y paralelamente aprendo cosas por mi cuenta. Tengo conocimientos intermedios de HTML, CSS y Javascript y además uso herramientas que me facilitan el proceso de desarrollo como Gulp (automatizador de tareas), Pug (compilador y transpilador de HTML), Sass (compilador y transpilador de CSS) y Babel (transpilador de Javascript 6). Actualmente me encuentro haciendo dos cursos online: de PHP (a través del programa Codo a Codo ofrecido por el Gobierno de la Ciudad de Buenos Aires) y de Testing de Software (dictado por el Centro Universitario de Vicente Lopez a través de la Fundación PROEM) y aprendiendo los fundamentos de NodeJS y Webpack.
+Hola. Me llamo Matias y tengo 29 años. Estoy cursando la Tecnicatura en Desarrollo Web en la Universidad Nacional de La Matanza y paralelamente aprendo cosas por mi cuenta. Tengo conocimientos intermedios de HTML, CSS y Javascript y además uso herramientas que me facilitan el proceso de desarrollo como Gulp (automatizador de tareas), Pug (compilador y transpilador de HTML), Sass (compilador y transpilador de CSS) y Babel (transpilador de Javascript 6). Actualmente me encuentro haciendo dos cursos online: de PHP (a través del programa Codo a Codo ofrecido por el Gobierno de la Ciudad de Buenos Aires) y de Testing de Software (dictado por el Centro Universitario de Vicente Lopez a través de la Fundación PROEM) y aprendiendo por mi cuenta los fundamentos de NodeJS y Webpack.
 
 Tengo dos proyectos en mi perfil:
 

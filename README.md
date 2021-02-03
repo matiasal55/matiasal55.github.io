@@ -4,7 +4,7 @@
 <hr>
 :es:
 
-Hola. Me llamo Matias y tengo 29 años. Estoy cursando la Tecnicatura en Desarrollo Web en la Universidad Nacional de La Matanza y paralelamente aprendo cosas por mi cuenta. Tengo conocimientos intermedios de Java, HTML, CSS y Javascript y además uso herramientas que me facilitan el proceso de desarrollo como Gulp (automatizador de tareas), Pug (compilador y transpilador de HTML), Sass (compilador y transpilador de CSS) y Babel (transpilador de Javascript 6). Actualmente me encuentro haciendo dos cursos online: de PHP (a través del programa Codo a Codo ofrecido por el Gobierno de la Ciudad de Buenos Aires) y de Testing de Software (dictado por el Centro Universitario de Vicente Lopez a través de la Fundación PROEM) y aprendiendo por mi cuenta los fundamentos de NodeJS y Webpack.
+Hola. Me llamo Matias y tengo 29 años. Estoy cursando la Tecnicatura en Desarrollo Web en la Universidad Nacional de La Matanza y paralelamente aprendo cosas por mi cuenta. Tengo conocimientos intermedios de Java, HTML, CSS y Javascript y además uso herramientas que me facilitan el proceso de desarrollo como Pug (compilador y transpilador de HTML), Sass (compilador y transpilador de CSS) y Babel (transpilador de Javascript 6). Actualmente me encuentro haciendo dos cursos online: de PHP (a través del programa Codo a Codo ofrecido por el Gobierno de la Ciudad de Buenos Aires) y de Testing de Software (dictado por el Centro Universitario de Vicente Lopez a través de la Fundación PROEM) y aprendiendo por mi cuenta los fundamentos de NodeJS, Express, MongoDB y Docker.
 
 Tengo dos proyectos en mi perfil:
 
@@ -20,7 +20,7 @@ Sitio web del Centro Municipal de Formación Profesional N°2 Manuel Belgrano, u
 <hr>
 :uk:
 
-Hi. My name is Matias and I'm 29. I'm studying Web Development Technical and I'm learning some languages and programming tools by my side. I have knowledges about Java, HTML, CSS and Javascript and also uso tools like Gulp, Pug, Sass, Babel and Webpack. In addition to the technical, I'm studying PHP, Fundamentals of Software Testing (online lessons), NodeJS and Webpack (self-taught).
+Hi. My name is Matias and I'm 29. I'm studying Web Development Technical and I'm learning some languages and programming tools by my side. I have knowledges about Java, HTML, CSS and Javascript and also uso tools like Pug, Sass and Babel. In addition to the technical, I'm studying PHP, Fundamentals of Software Testing (online lessons), NodeJS, Express, MongoDB and Docker (self-taught).
 
 I have two projects:
 

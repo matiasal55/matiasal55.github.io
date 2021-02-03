@@ -9,7 +9,7 @@ Hola. Me llamo Matias y tengo 29 años. Estoy cursando la Tecnicatura en Desarro
 Tengo dos proyectos en mi perfil:
 
 #### Aperture Academy
-Sitio web de cursos online. Proyecto realizado originalmente en 2019 como trabajo práctico para la materia "Programación Web 1" de la tecnicatura. En esa primera versión se trabajó grupalmente y se utilizaron HTML, CSS, Javascript y JQuery. En 2020 hice una nueva versión trabajando con transpiladores, la cual está terminada como se planteó originalmente y a partir de ahí la idea es ir implementando los conocimientos que voy adquiriendo con el tiempo. Por ejemplo, se está construyendo un CRUD de cursos a través de una API Rest propia subida a Firebase.
+Sitio web de cursos online. Proyecto realizado originalmente en 2019 como trabajo práctico para la materia "Programación Web 1" de la tecnicatura. En esa primera versión se trabajó grupalmente y se utilizaron HTML, CSS, Javascript y JQuery. En 2020 hice una nueva versión trabajando con transpiladores, la cual está terminada como se planteó originalmente y a partir de ahí la idea es ir implementando los conocimientos que voy adquiriendo con el tiempo.
 #### Repositorio: https://github.com/matiasal55/aperture-academy-v2
 #### Producción: https://matiasal55.github.io/aperture-academy-v2
 
@@ -25,8 +25,7 @@ Hi. My name is Matias and I'm 29. I'm studying Web Development Technical and I'm
 I have two projects:
 
 #### Aperture Academy
-Online courses website. Project originally carried out in 2019 as a practical work for the subject "Web Programming 1" of the technical course. In this first version, we worked in groups and used HTML, CSS, Javascript and JQuery. In 2020 I made a new version working with transpilators, which is finished as originally planned and from there, the idea is to gradually implement the knowledge that I acquire over time. For example, I am building a CRUD of courses through my own Rest API uploaded to Firebase.
-
+Online courses website. Project originally carried out in 2019 as a practical work for the subject "Web Programming 1" of the technical course. In this first version, we worked in groups and used HTML, CSS, Javascript and JQuery. In 2020 I made a new version working with transpilators, which is finished as originally planned and from there, the idea is to gradually implement the knowledge that I acquire over time. 
 #### Repository: https://github.com/matiasal55/aperture-academy-v2
 #### Production: https://matiasal55.github.io/aperture-academy-v2
 

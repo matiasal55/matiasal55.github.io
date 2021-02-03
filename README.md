@@ -51,8 +51,8 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
   <b>Aprendiendo / Now I'm learning:</b>
   <br>
    <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/node-dot-js.svg" width="50" height="50">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/php.svg" width="50" height="50">
-   <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/webpack.svg" width="50" height="50">
+   <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/mongodb.svg" width="50" height="50">
+   <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/docker.svg" width="50" height="50">
 </div>
 <hr>
 

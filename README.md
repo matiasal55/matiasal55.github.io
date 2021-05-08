@@ -71,7 +71,7 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
     <div>
       <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
     </div>
-    <b>Con / whith: </b>
+    <b>Con / with: </b>
     <div>
       <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
       <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?&style=for-the-badge&logo=intellij-idea&logoColor=white"/>
@@ -87,8 +87,4 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
   <a href="https://www.linkedin.com/in/matiasalarcon/">
 <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a></b>
-</div>
-<div>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/codepen.svg" width="30" height="30">
-<b>https://codepen.io/matiasalarcon</b>
 </div>

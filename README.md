@@ -22,7 +22,7 @@ Sitio web del Centro Municipal de Formación Profesional N°2 Manuel Belgrano, u
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matiasal55&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <div>
-  <b>Conocimientos:</b>
+  <b>Conocimientos intermedios:</b>
   <br>
   <div>
         <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>

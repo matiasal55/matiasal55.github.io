@@ -1,9 +1,7 @@
 ### Matias Rubén Alarcón
-### Desarrollador Web Trainee / Trainee Web Developer
+### Desarrollador Web Trainee
 #### Buenos Aires, Argentina
 <hr>
-:es:
-
 Hola. Me llamo Matias y tengo 30 años. Estoy cursando la Tecnicatura en Desarrollo Web en la Universidad Nacional de La Matanza y paralelamente aprendo cosas por mi cuenta.
 <p></p>
 Tengo conocimientos intermedios del stack MERN (MongoDB - Express - ReactJS - NodeJS), MySQL, Java y, desde ya, HTML, CSS y Javascript (ES6). Además uso herramientas como Redux, Bootstrap, Pug, Sass y Babel. 
@@ -20,30 +18,11 @@ Sitio web del Centro Municipal de Formación Profesional N°2 Manuel Belgrano, u
 #### Repositorio: https://github.com/matiasal55/cmfp2
 #### Producción: http://matiasal55.github.io/cmfp2
 <hr>
-:uk:
-
-Hi. My name is Matias and I'm 30. I'm studying Web Development Technical and I'm learning some languages and programming tools by my side.
-<p></p>
-I have intermedial knowledge about MERN Stack (MongoDB - Express - ReactJS - NodeJS), MySQL, Java and, of course, HTML, CSS and Javascript (ES6). Also I use development tools like Redux, Bootstrap, Pug, Sass and Babel.
-<p></p>
-I have two projects:
-
-#### Aperture Academy
-Online courses website. Project originally carried out in 2019 as a practical work for the subject "Web Programming 1" of the technical course. In this first version, we worked in groups and used HTML, CSS, Javascript and JQuery. In 2020 I made a new version working with transpilators, which is finished as originally planned. 
-#### Repository: https://github.com/matiasal55/aperture-academy-v2
-#### Production: https://matiasal55.github.io/aperture-academy-v2
-
-#### CMFP N°2 - Morón
-Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, located in the city of Morón (Buenos Aires, Argentina) where I took the Computer Networks and IP Telephony courses. It is a website redesign project, where in addition to the course information, the online registration option is added (currently it is face-to-face).
-
-#### Repository: https://github.com/matiasal55/cmfp2
-#### Production: http://matiasal55.github.io/cmfp2
-<hr>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matiasal55&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <div>
-  <b>Conocimientos / Knowledges:</b>
+  <b>Conocimientos:</b>
   <br>
   <div>
         <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
@@ -67,11 +46,11 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
     <img alt="Docker" src="https://img.shields.io/badge/docker-%230db7ed.svg?&style=for-the-badge&logo=docker&logoColor=white"/>
   </div>
   <div>
-    <b>Actualmente programo en / Now I'm programming in: </b>
+    <b>Actualmente programo en: </b>
     <div>
       <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
     </div>
-    <b>Con / with: </b>
+    <b>Con: </b>
     <div>
       <img alt="Visual Studio Code" src="https://img.shields.io/badge/VisualStudioCode-0078d7.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
       <img alt="IntelliJ IDEA" src="https://img.shields.io/badge/IntelliJIDEA-000000.svg?&style=for-the-badge&logo=intellij-idea&logoColor=white"/>
@@ -80,7 +59,7 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
 </div>
 <hr>
 
-#### Links externos / External links:
+#### Links externos:
 
 <div>
   <b>

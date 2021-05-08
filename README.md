@@ -39,31 +39,44 @@ Website of the Manuel Belgrano Municipal Vocational Training Center N ° 2, loca
 #### Repository: https://github.com/matiasal55/cmfp2
 #### Production: http://matiasal55.github.io/cmfp2
 <hr>
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=matiasal55&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 <div>
   <b>Conocimientos / Knowledges:</b>
   <br>
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/html5.svg" width="50" height="50">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/css3.svg" width="50" height="50">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/javascript.svg" width="50" height="50">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/java.svg" width="50" height="50">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/sass.svg" width="50" height="50">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/babel.svg" width="50" height="50">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/php.svg" width="50" height="50">
-  <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/mysql.svg" width="50" height="50">
-  <br>
-  <b>Aprendiendo / Now I'm learning:</b>
-  <br>
-   <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/node-dot-js.svg" width="50" height="50">
-   <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/mongodb.svg" width="50" height="50">
-   <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/docker.svg" width="50" height="50">
+  <div>
+        <img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>
+        <img alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?&style=for-the-badge"/>
+        <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+        <img alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
+        <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+  </div>
+  <div>
+    <img alt="Java" src="https://img.shields.io/badge/java-%23ED8B00.svg?&style=for-the-badge&logo=java&logoColor=white"/>
+    <img alt="MySQL" src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
+    <img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+    <img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+    <img alt="SASS" src="https://img.shields.io/badge/SASS-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white"/>
+    <img alt="Babel" src="https://img.shields.io/badge/Babel-F9DC3e?style=for-the-badge&logo=babel&logoColor=black" />
+    <img alt="Docker" src="https://img.shields.io/badge/docker-%230db7ed.svg?&style=for-the-badge&logo=docker&logoColor=white"/>
+  </div>
+  <div>
+    <b>Actualmente programo en / Now I'm programming in: </b>
+    <div>
+      <img alt="Ubuntu" src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+    </div>
+  </div>
 </div>
 <hr>
 
 #### Links externos / External links:
 
 <div>
-<img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/linkedin.svg" width="30" height="30">
-<b>https://www.linkedin.com/in/matiasalarcon/</b>
+  <b>
+  <a href="https://www.linkedin.com/in/matiasalarcon/">
+<img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+    </a></b>
 </div>
 <div>
 <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.11.0/icons/codepen.svg" width="30" height="30">

@@ -1,4 +1,4 @@
-### Matias Rubén Alarcón
+### Matias Alarcón
 ### Desarrollador Web Trainee
 #### Buenos Aires, Argentina
 <hr>

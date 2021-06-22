@@ -13,9 +13,10 @@ const Main = () => {
     if (loading)
         return (
             <div className='loading'>
-                <Loader color='#1ab6b9' />
+                <Loader color='#1ab6b9' loading={loading} />
             </div>
         );
+    console.log('Actualizado');
 
     return (
         <main>

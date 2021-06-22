@@ -7,8 +7,9 @@ const Main = () => {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setLoading(false);
-    });
+        window.addEventListener('load', () => setLoading(false));
+        return () => window.removeEventListener('load', () => setLoading(false));
+    }, []);
 
     if (loading)
         return (
@@ -16,7 +17,6 @@ const Main = () => {
                 <Loader color='#1ab6b9' loading={loading} />
             </div>
         );
-    console.log('Actualizado');
 
     return (
         <main>

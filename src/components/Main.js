@@ -8,9 +8,7 @@ const Main = () => {
 
     useEffect(() => {
         setLoading(false);
-    }, []);
-
-    console.log(loading);
+    });
 
     if (loading)
         return (

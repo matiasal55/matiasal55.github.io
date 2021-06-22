@@ -1,6 +1,22 @@
+import { useEffect, useState } from 'react';
+import { css } from '@emotion/react';
+import Loader from 'react-spinners/PropagateLoader';
 import '../styles/Main.scss';
 
 const Main = () => {
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        setLoading(false);
+    }, []);
+
+    if (loading)
+        return (
+            <div className='loading'>
+                <Loader color='#1ab6b9' />
+            </div>
+        );
+
     return (
         <main>
             <div className='main'>

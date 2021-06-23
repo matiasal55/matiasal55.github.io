@@ -5,10 +5,12 @@ import '../styles/Main.scss';
 
 const Main = () => {
     const [loading, setLoading] = useState(true);
+    const loadPage = (e) => {
+        setLoading(false);
+    };
 
     useEffect(() => {
-        window.addEventListener('load', () => setLoading(false));
-        return () => window.removeEventListener('load', () => setLoading(false));
+        window.addEventListener('load', loadPage);
     }, []);
 
     if (loading)

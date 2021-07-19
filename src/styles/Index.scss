@@ -1,0 +1,14 @@
+.picture {
+    background-image: url('../assets/profile.jpg');
+    width: 50%;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 640px) {
+    .picture {
+        width: 100%;
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import '../styles/_knowledge-cards.scss';
 
 const KnowledgeCard = ({ children }) => {
     return <div className='icon'>{children}</div>;

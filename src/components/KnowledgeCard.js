@@ -13,8 +13,11 @@ const KnowledgeCard = ({ children, alt }) => {
     };
 
     return (
-        <div className='icon' onMouseEnter={altText} onMouseLeave={logo}>
-            {content}
+        <div className='card'>
+            <div className='icon' onMouseEnter={altText} onMouseLeave={logo}>
+                {content}
+            </div>
+            <div className='alt-text-resp'>{alt}</div>
         </div>
     );
 };

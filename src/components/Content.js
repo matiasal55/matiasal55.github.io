@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import '../styles/_content.scss';
 
-const Content = ({ children }) => {
+const Content = ({ children, page }) => {
     return (
-        <div className='content'>
+        <div className={'content ' + page}>
             <div className='close'>
                 <Link to='/'>CERRAR</Link>
             </div>

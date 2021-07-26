@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/_menuLink.scss';
 
-const MenuLink = ({ path, esp, eng }) => {
+const MenuLink = ({ path, esp, eng, setEnglish }) => {
     const [link, setLink] = useState(esp);
 
     const mouseOver = () => {
@@ -15,7 +15,7 @@ const MenuLink = ({ path, esp, eng }) => {
 
     return (
         <Link to={path} onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>
-            <li>{link}</li>
+            <li>{!setEnglish ? link : eng}</li>
         </Link>
     );
 };

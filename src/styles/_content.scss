@@ -3,6 +3,10 @@
     justify-content: center;
     padding: 3rem;
     flex-direction: column;
+
+    .close {
+        text-align: right;
+    }
 }
 
 @media (max-device-width: 768px) {

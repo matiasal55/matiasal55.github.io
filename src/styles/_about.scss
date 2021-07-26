@@ -15,3 +15,15 @@ p {
 a {
     color: $firstColor;
 }
+
+.picture-about {
+    width: 90%;
+    margin: 2rem 0;
+    display: none;
+}
+
+@media (max-device-width: 768px) {
+    .picture-about {
+        display: block;
+    }
+}

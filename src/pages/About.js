@@ -1,4 +1,5 @@
 import Content from '../components/Content';
+import picture from '../assets/profile.jpg';
 import '../styles/_about.scss';
 
 const About = () => {
@@ -6,6 +7,7 @@ const About = () => {
         <Content>
             <div className='information'>
                 <h2>Acerca de mí</h2>
+                <img className='picture-about' src={picture} alt='me' />
                 <p>Hola. Me llamo Matias, tengo 30 años y soy de Buenos Aires, Argentina.</p>
                 <p>
                     Me especializo en el stack MERN (MongoDB - Express - ReactJS - NodeJS) y tengo conocimientos intermedios y trabajos realizados con Java y

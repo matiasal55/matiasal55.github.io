@@ -3,15 +3,17 @@ import '../styles/_menu.scss';
 import MenuLink from './MenuLink';
 
 const Menu = () => {
-    const [language, setLanguage] = useState('ENG');
+    const msgEng = 'Touch for ENG';
+    const msgEsp = 'Pulse para ESP';
+    const [language, setLanguage] = useState(msgEng);
     const [english, setEnglish] = useState(false);
 
     const changeLanguage = () => {
-        if (language === 'ENG') {
-            setLanguage('ESP');
+        if (language.includes('ENG')) {
+            setLanguage(msgEsp);
             setEnglish(true);
         } else {
-            setLanguage('ENG');
+            setLanguage(msgEng);
             setEnglish(false);
         }
     };

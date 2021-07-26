@@ -1,6 +1,6 @@
 @import './variables';
 
 .link:hover,
-.active {
+.menu ul a.active {
     color: $secondColor;
 }

@@ -1,6 +1,8 @@
+@import './variables';
+
 .menu {
     font-family: 'Roboto', sans-serif;
-    background-color: #060f36;
+    background-color: $firstColor;
     color: white;
     width: 50%;
     display: flex;

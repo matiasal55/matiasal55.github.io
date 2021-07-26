@@ -1,9 +1,11 @@
+@import './variables';
+
 .link:hover {
-    color: #1ab6b9;
+    color: $secondColor;
 }
 
 @media (max-device-width: 768px) {
     .link {
-        color: #1ab6b9;
+        color: $secondColor;
     }
 }

@@ -15,7 +15,7 @@ const MenuLink = ({ path, esp, eng, setEnglish }) => {
 
     return (
         <NavLink exact to={path} activeClassName='active' onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>
-            <li className={`link`}>{!setEnglish ? link : eng}</li>
+            <li className='link'>{!setEnglish ? link : eng}</li>
         </NavLink>
     );
 };

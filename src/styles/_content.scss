@@ -6,6 +6,7 @@
 
     .close {
         text-align: right;
+        display: none;
     }
 }
 
@@ -14,5 +15,9 @@
         position: absolute;
         z-index: 100;
         height: 100vh;
+
+        .close {
+            display: block;
+        }
     }
 }

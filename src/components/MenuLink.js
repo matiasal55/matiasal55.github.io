@@ -15,7 +15,7 @@ const MenuLink = ({ path, esp, eng, setEnglish }) => {
 
     return (
         <Link to={path} onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>
-            <li>{!setEnglish ? link : eng}</li>
+            <li className='link'>{!setEnglish ? link : eng}</li>
         </Link>
     );
 };

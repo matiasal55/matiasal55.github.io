@@ -1,0 +1,10 @@
+@import './variables';
+
+.content.contact {
+    background-color: $thirdColor;
+    color: white;
+
+    a {
+        color: $secondColor;
+    }
+}

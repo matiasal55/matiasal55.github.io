@@ -2,20 +2,20 @@ import { useState } from 'react';
 import '../styles/_knowledge-cards.scss';
 
 const KnowledgeCard = ({ children, alt }) => {
-    const [content, setContent] = useState(children);
+    const [enableAlt, setEnableAlt] = useState(false);
 
     const altText = () => {
-        setContent(alt);
+        setEnableAlt(true);
     };
 
     const logo = () => {
-        setContent(children);
+        setEnableAlt(false);
     };
 
     return (
         <div className='card'>
             <div className='icon' onMouseEnter={altText} onMouseLeave={logo}>
-                {content}
+                {enableAlt ? alt : <svg viewBox='0 0 128 128'>{children}</svg>}
             </div>
             <div className='alt-text-resp'>{alt}</div>
         </div>

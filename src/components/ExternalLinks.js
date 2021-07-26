@@ -1,7 +1,7 @@
 import '../styles/_external-links.scss';
 
 const ExternalLinks = () => {
-    const fill = '#fff';
+    const fill = '#1ab6b9';
 
     return (
         <div className='external-links'>

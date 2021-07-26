@@ -5,7 +5,7 @@ import Knowledge from '../components/Knowledge';
 
 const About = () => {
     return (
-        <Content>
+        <Content page='about'>
             <div className='information'>
                 <h2>Acerca de mí</h2>
                 <img className='picture-about' src={picture} alt='me' />

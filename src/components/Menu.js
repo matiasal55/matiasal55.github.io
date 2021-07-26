@@ -9,13 +9,13 @@ const Menu = () => {
                 <Link to='/'>
                     <li>Home</li>
                 </Link>
-                <Link to='/'>
+                <Link to='/about'>
                     <li>About</li>
                 </Link>
-                <Link to='/'>
+                <Link to='/works'>
                     <li>Works</li>
                 </Link>
-                <Link to='/'>
+                <Link to='/contact'>
                     <li>Contact</li>
                 </Link>
             </ul>

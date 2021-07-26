@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import '../styles/_menu.scss';
+import ExternalLinks from './ExternalLinks';
 import MenuLink from './MenuLink';
 
 const Menu = () => {
@@ -29,6 +30,7 @@ const Menu = () => {
             <div className='language' onClick={changeLanguage}>
                 {language}
             </div>
+            <ExternalLinks />
         </div>
     );
 };

@@ -1,8 +1,28 @@
+import Content from '../components/Content';
+import '../styles/_about.scss';
+
 const About = () => {
     return (
-        <div>
-            <h1>About hs</h1>
-        </div>
+        <Content>
+            <div className='information'>
+                <h2>Acerca de mí</h2>
+                <p>Hola. Me llamo Matias, tengo 30 años y soy de Buenos Aires, Argentina.</p>
+                <p>
+                    Me especializo en el stack MERN (MongoDB - Express - ReactJS - NodeJS) y tengo conocimientos intermedios y trabajos realizados con Java y
+                    PHP.
+                </p>
+                <p>
+                    Estoy realizando la Tecnicatura en Desarrollo Web y paralelamente aprendo cosas por mi cuenta y desarrollo proyectos propios y para
+                    terceros.
+                </p>
+            </div>
+            <div className='information'>
+                <h2>About</h2>
+                <p>Hi! I'm Matias. I'm 30 years old and I'm from Buenos Aires, Argentina.</p>
+                <p>I specialize in MERN Stack and I have middle knowledge and work done with Java and PHP.</p>
+                <p>I'm studying Web Development Technique and parallel I'm learning on my own and develop own projects and for thir parties.</p>
+            </div>
+        </Content>
     );
 };
 

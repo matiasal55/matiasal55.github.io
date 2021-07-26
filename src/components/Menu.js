@@ -1,23 +1,14 @@
-import { Link } from 'react-router-dom';
 import '../styles/_menu.scss';
+import MenuLink from './MenuLink';
 
 const Menu = () => {
     return (
         <div className='menu'>
             <h1>Matias Alarcón</h1>
             <ul>
-                <Link to='/'>
-                    <li>Home</li>
-                </Link>
-                <Link to='/about'>
-                    <li>About</li>
-                </Link>
-                <Link to='/works'>
-                    <li>Works</li>
-                </Link>
-                <Link to='/contact'>
-                    <li>Contact</li>
-                </Link>
+                <MenuLink path='/about' esp='Acerca de mí' eng='About' />
+                <MenuLink path='/works' esp='Trabajos' eng='Works' />
+                <MenuLink path='/contact' esp='Contacto' eng='Contact Me' />
             </ul>
         </div>
     );

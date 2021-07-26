@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/_menuLink.scss';
 
 const MenuLink = ({ path, esp, eng, setEnglish }) => {
@@ -14,9 +14,9 @@ const MenuLink = ({ path, esp, eng, setEnglish }) => {
     };
 
     return (
-        <Link to={path} onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>
-            <li className='link'>{!setEnglish ? link : eng}</li>
-        </Link>
+        <NavLink exact to={path} activeClassName='active' onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>
+            <li className={`link`}>{!setEnglish ? link : eng}</li>
+        </NavLink>
     );
 };
 

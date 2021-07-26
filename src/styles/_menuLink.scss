@@ -1,3 +1,9 @@
 .link:hover {
     color: #1ab6b9;
 }
+
+@media (max-device-width: 768px) {
+    .link {
+        color: #1ab6b9;
+    }
+}

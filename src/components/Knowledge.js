@@ -2,13 +2,13 @@ import '../styles/_knowledge.scss';
 import Card from './KnowledgeCard';
 
 const Knowledge = () => {
-    const fill = '#060f36';
+    const fill = '#fff';
 
     return (
         <div className='knowledge'>
             <h2>Tecnologías / Knowledge:</h2>
             <div className='icons'>
-                <Card>
+                <Card alt='Javascript'>
                     <svg viewBox='0 0 128 128'>
                         <path
                             fill={fill}
@@ -16,7 +16,7 @@ const Knowledge = () => {
                         ></path>
                     </svg>
                 </Card>
-                <Card>
+                <Card alt='ReactJS'>
                     <svg viewBox='0 0 128 128'>
                         <g fill={fill}>
                             <circle cx='64' cy='64' r='11.4'></circle>
@@ -24,7 +24,7 @@ const Knowledge = () => {
                         </g>
                     </svg>
                 </Card>
-                <Card>
+                <Card alt='MongoDB'>
                     <svg viewBox='0 0 128 128'>
                         <path
                             fill-rule='evenodd'
@@ -34,7 +34,7 @@ const Knowledge = () => {
                         ></path>
                     </svg>
                 </Card>
-                <Card>
+                <Card alt='ExpressJS'>
                     <svg viewBox='0 0 128 128'>
                         <path
                             fill={fill}
@@ -42,7 +42,7 @@ const Knowledge = () => {
                         ></path>
                     </svg>
                 </Card>
-                <Card>
+                <Card alt='NodeJS'>
                     <svg viewBox='0 0 128 128'>
                         <path
                             fill={fill}
@@ -50,7 +50,7 @@ const Knowledge = () => {
                         ></path>
                     </svg>
                 </Card>
-                <Card>
+                <Card alt='Java'>
                     <svg viewBox='0 0 128 128'>
                         <path
                             fill={fill}

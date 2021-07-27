@@ -5,9 +5,10 @@ import * as yup from 'yup';
 import Content from '../components/Content';
 import FormField from '../components/FormField';
 import { sendEmail } from '../utils/email';
-import ReCAPTCHA from 'react-google-recaptcha';
-import { captchaID } from '../utils/dotenv';
+import Captcha from '../components/Captcha';
 import '../styles/_contact.scss';
+import Thanks from '../components/Thanks';
+import ErrorMsg from '../components/ErrorMsg';
 
 const Contact = () => {
     const schema = yup.object().shape({
@@ -58,13 +59,7 @@ const Contact = () => {
         }
     };
 
-    if (send)
-        return (
-            <Content page='contact'>
-                <h2 className='thanks'>Muchas gracias por enviar su mensaje. En breve será leído y en caso de ser necesario respondido.</h2>
-                <h2 className='thanks'>Thank you so much for send me a message. It will be read shortly and if necessary answered.</h2>
-            </Content>
-        );
+    if (send) return <Thanks />;
 
     return (
         <Content page='contact'>
@@ -114,11 +109,9 @@ const Contact = () => {
                     <div className='form-group'>
                         <label htmlFor='message'>Mensaje / Message:</label>
                         <textarea {...register('message', { required: true })} placeholder='Ingrese su mensaje / Enter your message' />
-                        {errors['message'] ? <div className='error'>{errors['message'].message}</div> : null}
+                        <ErrorMsg error={errors['message']} />
                     </div>
-                    <div className='captcha'>
-                        <ReCAPTCHA sitekey={captchaID} onChange={() => setCaptcha(true)} />
-                    </div>
+                    <Captcha onChange={() => setCaptcha(true)} />
                     <div className='form-group'>
                         <button type='submit' disabled={!enableButton}>
                             {enableButton ? 'Enviar' : 'Enviando...'}

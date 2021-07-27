@@ -25,6 +25,10 @@ p {
 }
 
 @media (max-device-width: 768px) {
+    .content.about {
+        width: 100%;
+    }
+
     .picture-about {
         display: block;
     }

@@ -3,6 +3,7 @@
 .content.contact {
     background-color: $thirdColor;
     color: white;
+    width: 50vw;
 
     a {
         color: $secondColor;
@@ -43,4 +44,10 @@
 
 .captcha {
     margin: 1rem 0;
+}
+
+@media (max-device-width: 768px) {
+    .content.contact {
+        width: 100%;
+    }
 }

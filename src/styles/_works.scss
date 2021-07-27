@@ -3,15 +3,21 @@
 .content.works {
     background-color: #39cacc;
     color: $firstColor;
-    width: 100%;
+    width: 50vw;
 }
 
 a {
-    color: white;
+    color: $firstColor;
 }
 
 .works-cards {
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-device-width: 768px) {
+    .content.works {
+        width: 100%;
+    }
 }

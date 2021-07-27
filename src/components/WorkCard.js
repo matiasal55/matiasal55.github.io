@@ -10,7 +10,9 @@ const WorkCard = ({ data }) => {
     return (
         <Link to={`/works/${data.title.toLowerCase().replace(' ', '-')}`}>
             <div className='work-card' onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
-                <div className='work-card-img' style={{ backgroundImage: `url(${data.img})` }}></div>
+                <div className='work-card-img'>
+                    <img src={data.img} alt={data.title} />
+                </div>
                 <div className={`work-card-info ${active ? 'active' : ''}`}>
                     <h3>{data.title}</h3>
                 </div>

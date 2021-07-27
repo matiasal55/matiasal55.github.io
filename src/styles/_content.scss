@@ -1,9 +1,16 @@
+@import './variables';
+
 .content {
     display: flex;
     justify-content: center;
     padding: 3rem;
     flex-direction: column;
     width: 50%;
+    color: $firstColor;
+
+    a {
+        color: $firstColor;
+    }
 
     .close {
         text-align: right;

@@ -6,7 +6,6 @@ export const sendEmail = async (data) => {
         const send = await emailjs.send(serviceID, templateID, data, userID);
         return true;
     } catch (e) {
-        console.log(e);
         return false;
     }
 };

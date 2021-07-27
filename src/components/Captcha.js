@@ -4,7 +4,7 @@ import { captchaID } from '../utils/dotenv';
 const Captcha = ({ onChange }) => {
     return (
         <div className='captcha'>
-            <ReCAPTCHA sitekey={captchaID} onChange={onChange} />
+            <ReCAPTCHA sitekey={captchaID} onChange={onChange} size='compact' />
         </div>
     );
 };

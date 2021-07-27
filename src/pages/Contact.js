@@ -33,11 +33,12 @@ const Contact = () => {
         register,
         formState: { errors },
     } = useForm({ resolver: yupResolver(schema) });
-    const [send, setSend] = useState(false);
+    const [send, setSend] = useState(null);
 
     const onSubmit = async (data) => {
         const send = await sendEmail(data);
         if (send) setSend(true);
+        else setSend(false);
     };
 
     if (send)
@@ -95,13 +96,14 @@ const Contact = () => {
                     />
                     <div className='form-group'>
                         <label htmlFor='message'>Mensaje / Message:</label>
-                        <textarea {...register('message', { required: true })} placeholder='Ingrese su mensaje / Enter yout message' />
+                        <textarea {...register('message', { required: true })} placeholder='Ingrese su mensaje / Enter your message' />
                         {errors['message'] ? <div className='error'>{errors['message'].message}</div> : null}
                     </div>
                     <div className='form-group'>
                         <button type='submit'>Enviar</button>
                     </div>
                 </form>
+                {send === false ? <div className='error'>El mensaje no pudo ser enviado. Intente más tarde.</div> : null}
             </div>
         </Content>
     );

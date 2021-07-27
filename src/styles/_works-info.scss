@@ -6,10 +6,6 @@
 
     .work-info-img img {
         width: 50%;
-        margin: 1rem 0;
-    }
-
-    & p {
         margin-bottom: 1rem;
     }
 }
@@ -19,9 +15,8 @@
 }
 
 .button {
-    border: none;
-    background-color: $secondColor;
-    padding: 0.75rem;
+    @include button;
     width: 10rem;
     text-align: center;
+    margin-bottom: 1rem;
 }

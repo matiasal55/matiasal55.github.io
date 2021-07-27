@@ -5,6 +5,8 @@ import * as yup from 'yup';
 import Content from '../components/Content';
 import FormField from '../components/FormField';
 import { sendEmail } from '../utils/email';
+import ReCAPTCHA from 'react-google-recaptcha';
+import { captchaID } from '../utils/dotenv';
 import '../styles/_contact.scss';
 
 const Contact = () => {
@@ -34,10 +36,11 @@ const Contact = () => {
         formState: { errors },
     } = useForm({ resolver: yupResolver(schema) });
     const [send, setSend] = useState(null);
+    const [captcha, setCaptcha] = useState(false);
 
     const onSubmit = async (data) => {
         const send = await sendEmail(data);
-        if (send) setSend(true);
+        if (send && captcha) setSend(true);
         else setSend(false);
     };
 
@@ -103,6 +106,9 @@ const Contact = () => {
                         <button type='submit'>Enviar</button>
                     </div>
                 </form>
+                <div className='captcha'>
+                    <ReCAPTCHA sitekey={captchaID} onChange={() => setCaptcha(true)} />
+                </div>
                 {send === false ? <div className='error'>El mensaje no pudo ser enviado. Intente más tarde.</div> : null}
             </div>
         </Content>

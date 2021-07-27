@@ -70,7 +70,7 @@ const Form = () => {
                     errors={errors}
                 />
                 <TextArea register={register} errors={errors} />
-                <Captcha onChange={() => setCaptcha(true)} />
+                <Captcha onChange={() => setCaptcha(true)} onErrored={() => setCaptcha(false)} onExpired={() => setCaptcha(false)} />
                 <div className='form-group'>
                     <button type='submit' disabled={!enableButton}>
                         {enableButton ? 'Enviar' : 'Enviando...'}

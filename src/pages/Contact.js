@@ -35,13 +35,24 @@ const Contact = () => {
         register,
         formState: { errors },
     } = useForm({ resolver: yupResolver(schema) });
-    const [send, setSend] = useState(null);
+    const [send, setSend] = useState(false);
     const [captcha, setCaptcha] = useState(false);
+    const [errorMsg, setErrorMsg] = useState('');
 
     const onSubmit = async (data) => {
+        if (!captcha) {
+            setErrorMsg('Debe validar el captcha / Must validate the captcha');
+            return false;
+        }
         const send = await sendEmail(data);
-        if (send && captcha) setSend(true);
-        else setSend(false);
+        if (send) {
+            setSend(true);
+        } else {
+            setSend(false);
+            setErrorMsg(
+                "No se pudo enviar el mensaje. Les pedimos disculpas. Por favor intentar más adelante / The message can't be sent. Please try later. I'm sorry."
+            );
+        }
     };
 
     if (send)
@@ -109,7 +120,7 @@ const Contact = () => {
                         <button type='submit'>Enviar</button>
                     </div>
                 </form>
-                {send === false ? <div className='error'>El mensaje no pudo ser enviado. Intente más tarde.</div> : null}
+                <div className='error'>{errorMsg}</div>
             </div>
         </Content>
     );

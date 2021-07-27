@@ -19,7 +19,7 @@ const About = () => {
                     terceros.
                 </p>
             </div>
-            <div className='information'>
+            <div className='information eng'>
                 <h2>About</h2>
                 <p>Hi! I'm Matias. I'm 30 years old and I'm from Buenos Aires, Argentina.</p>
                 <p>I specialize in MERN Stack and I have middle knowledge and work done with Java and PHP.</p>

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/_works-cards.scss';
 
 const WorkCard = ({ data }) => {
     const [active, setActive] = useState(false);

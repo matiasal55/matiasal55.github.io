@@ -16,6 +16,8 @@ const Works = () => {
             <p>Trabajos realizados, tanto proyectos propios como los realizados para terceros.</p>
             <div className='works-cards'>
                 <Card data={loremCard} />
+                <Card data={loremCard} />
+                <Card data={loremCard} />
             </div>
         </Content>
     );

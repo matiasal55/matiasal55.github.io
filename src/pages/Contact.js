@@ -121,7 +121,7 @@ const Contact = () => {
                     </div>
                     <div className='form-group'>
                         <button type='submit' disabled={!enableButton}>
-                            Enviar
+                            {enableButton ? 'Enviar' : 'Enviando...'}
                         </button>
                     </div>
                 </form>

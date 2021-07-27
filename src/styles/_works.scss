@@ -1,0 +1,43 @@
+@import './variables';
+
+.content.works {
+    background-color: #39cacc;
+    color: $firstColor;
+}
+
+a {
+    color: white;
+}
+
+.works-cards {
+    margin-top: 2rem;
+}
+
+.work-card {
+    position: relative;
+
+    .work-card-img {
+        width: 20rem;
+        height: 12rem;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .work-card-info {
+        color: white;
+        position: absolute;
+        top: 0;
+        z-index: 50;
+        background-color: rgba($color: $thirdColor, $alpha: 0.5);
+        width: 20rem;
+        height: 12rem;
+        padding: 1rem;
+        display: none;
+
+        &.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

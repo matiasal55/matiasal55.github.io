@@ -1,4 +1,5 @@
 @import './variables';
+@import './mixins';
 
 .content.work-info {
     background-color: white;
@@ -14,8 +15,7 @@
 }
 
 .work-info-tech {
-    display: flex;
-    flex-wrap: wrap;
+    @include wrap;
 }
 
 .button {

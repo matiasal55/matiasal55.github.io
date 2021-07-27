@@ -38,17 +38,20 @@ const Contact = () => {
     const [send, setSend] = useState(false);
     const [captcha, setCaptcha] = useState(false);
     const [errorMsg, setErrorMsg] = useState('');
+    const [enableButton, setEnableButton] = useState(true);
 
     const onSubmit = async (data) => {
         if (!captcha) {
             setErrorMsg('Debe validar el captcha / Must validate the captcha');
             return false;
         }
+        setEnableButton(false);
         const send = await sendEmail(data);
         if (send) {
             setSend(true);
         } else {
             setSend(false);
+            setEnableButton(true);
             setErrorMsg(
                 "No se pudo enviar el mensaje. Les pedimos disculpas. Por favor intentar más adelante / The message can't be sent. Please try later. I'm sorry."
             );
@@ -117,7 +120,9 @@ const Contact = () => {
                         <ReCAPTCHA sitekey={captchaID} onChange={() => setCaptcha(true)} />
                     </div>
                     <div className='form-group'>
-                        <button type='submit'>Enviar</button>
+                        <button type='submit' disabled={!enableButton}>
+                            Enviar
+                        </button>
                     </div>
                 </form>
                 <div className='error'>{errorMsg}</div>

@@ -1,66 +1,8 @@
-import { useState } from 'react';
-import { useForm } from 'react-hook-form';
-import { yupResolver } from '@hookform/resolvers/yup';
-import * as yup from 'yup';
 import Content from '../components/Content';
-import FormField from '../components/FormField';
-import { sendEmail } from '../utils/email';
-import Captcha from '../components/Captcha';
 import '../styles/_contact.scss';
-import Thanks from '../components/Thanks';
-import ErrorMsg from '../components/ErrorMsg';
+import Form from '../components/Form';
 
 const Contact = () => {
-    const schema = yup.object().shape({
-        name: yup
-            .string()
-            .trim()
-            .required('Por favor ingrese su nombre / Please enter your name')
-            .min(5, 'Ingrese un nombre correcto / Please enter a correct name')
-            .matches(/[a-zA-Z]/g, 'Ingrese un nombre correcto / Please enter a correct name'),
-        company: yup.string().trim(),
-        telphone: yup.string().trim(),
-        email: yup
-            .string()
-            .required('Por favor ingrese su email / Please enter your email')
-            .email("El formato del email no es correcto / It's not an email")
-            .trim(),
-        message: yup
-            .string()
-            .required('Ingrese su mensaje / Please enter your message')
-            .min(10, 'El mensaje debe tener al menos 10 caracteres / Your message must have more than 10 characters'),
-    });
-
-    const {
-        handleSubmit,
-        register,
-        formState: { errors },
-    } = useForm({ resolver: yupResolver(schema) });
-    const [send, setSend] = useState(false);
-    const [captcha, setCaptcha] = useState(false);
-    const [errorMsg, setErrorMsg] = useState('');
-    const [enableButton, setEnableButton] = useState(true);
-
-    const onSubmit = async (data) => {
-        if (!captcha) {
-            setErrorMsg('Debe validar el captcha / Must validate the captcha');
-            return false;
-        }
-        setEnableButton(false);
-        const send = await sendEmail(data);
-        if (send) {
-            setSend(true);
-        } else {
-            setSend(false);
-            setEnableButton(true);
-            setErrorMsg(
-                "No se pudo enviar el mensaje. Les pedimos disculpas. Por favor intentar más adelante / The message can't be sent. Please try later. I'm sorry."
-            );
-        }
-    };
-
-    if (send) return <Thanks />;
-
     return (
         <Content page='contact'>
             <div>
@@ -73,52 +15,7 @@ const Contact = () => {
                     If you would like contact me, please make click <a href='mailto:mati.alarcon55@gmail.com'>here</a>. Also you can add me to your network
                     contact in <a href='https://www.linkedin.com/in/matiasalarcon'>Linkedin</a> or you can complete the next form:
                 </p>
-                <form method='POST' onSubmit={handleSubmit(onSubmit)}>
-                    <FormField
-                        labelFor='name'
-                        labelName='Nombre / Name:'
-                        placeholder='Ingrese su nombre / Enter your name'
-                        register={register}
-                        errors={errors}
-                    />
-                    <FormField
-                        labelFor='company'
-                        labelName='Empresa / Company:'
-                        placeholder='Opcional / Optional'
-                        required={false}
-                        register={register}
-                        errors={errors}
-                    />
-                    <FormField
-                        labelFor='telphone'
-                        labelName='Teléfono / Phone:'
-                        placeholder='Opcional / Optional'
-                        type='tel'
-                        register={register}
-                        required={false}
-                        errors={errors}
-                    />
-                    <FormField
-                        labelFor='email'
-                        labelName='Email:'
-                        placeholder='Ingrese su email / Enter your email'
-                        type='email'
-                        register={register}
-                        errors={errors}
-                    />
-                    <div className='form-group'>
-                        <label htmlFor='message'>Mensaje / Message:</label>
-                        <textarea {...register('message', { required: true })} placeholder='Ingrese su mensaje / Enter your message' />
-                        <ErrorMsg error={errors['message']} />
-                    </div>
-                    <Captcha onChange={() => setCaptcha(true)} />
-                    <div className='form-group'>
-                        <button type='submit' disabled={!enableButton}>
-                            {enableButton ? 'Enviar' : 'Enviando...'}
-                        </button>
-                    </div>
-                </form>
-                <div className='error'>{errorMsg}</div>
+                <Form />
             </div>
         </Content>
     );

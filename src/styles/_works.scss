@@ -3,6 +3,7 @@
 .content.works {
     background-color: #39cacc;
     color: $firstColor;
+    width: 100%;
 }
 
 a {
@@ -11,16 +12,19 @@ a {
 
 .works-cards {
     margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .work-card {
     position: relative;
+    margin: 1rem;
+    max-width: 25rem;
+    height: 12rem;
 
-    .work-card-img {
-        width: 20rem;
+    .work-card-img img {
+        width: 100%;
         height: 12rem;
-        background-position: center;
-        background-size: cover;
     }
 
     .work-card-info {
@@ -29,8 +33,8 @@ a {
         top: 0;
         z-index: 50;
         background-color: rgba($color: $thirdColor, $alpha: 0.5);
-        width: 20rem;
-        height: 12rem;
+        width: 100%;
+        height: 100%;
         padding: 1rem;
         display: none;
 

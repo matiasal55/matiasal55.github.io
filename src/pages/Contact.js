@@ -102,13 +102,13 @@ const Contact = () => {
                         <textarea {...register('message', { required: true })} placeholder='Ingrese su mensaje / Enter your message' />
                         {errors['message'] ? <div className='error'>{errors['message'].message}</div> : null}
                     </div>
+                    <div className='captcha'>
+                        <ReCAPTCHA sitekey={captchaID} onChange={() => setCaptcha(true)} />
+                    </div>
                     <div className='form-group'>
                         <button type='submit'>Enviar</button>
                     </div>
                 </form>
-                <div className='captcha'>
-                    <ReCAPTCHA sitekey={captchaID} onChange={() => setCaptcha(true)} />
-                </div>
                 {send === false ? <div className='error'>El mensaje no pudo ser enviado. Intente más tarde.</div> : null}
             </div>
         </Content>

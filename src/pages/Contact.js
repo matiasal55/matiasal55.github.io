@@ -4,6 +4,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import Content from '../components/Content';
 import FormField from '../components/FormField';
+import { sendEmail } from '../utils/email';
 import '../styles/_contact.scss';
 
 const Contact = () => {
@@ -34,8 +35,9 @@ const Contact = () => {
     } = useForm({ resolver: yupResolver(schema) });
     const [send, setSend] = useState(false);
 
-    const onSubmit = (e) => {
-        setSend(true);
+    const onSubmit = async (data) => {
+        const send = await sendEmail(data);
+        if (send) setSend(true);
     };
 
     if (send)

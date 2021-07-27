@@ -1,4 +1,3 @@
-import Card from '../KnowledgeCard';
 import Bootstrap from './Technologies/Bootstrap';
 import Bulma from './Technologies/Bulma';
 import CSS3 from './Technologies/CSS3';

@@ -22,7 +22,7 @@
     display: none;
 }
 
-@media (max-device-width: 768px) {
+@media (max-device-width: $responsive) {
     .alt-text-resp {
         display: block;
     }

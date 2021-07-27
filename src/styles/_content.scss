@@ -18,7 +18,7 @@
     }
 }
 
-@media (max-device-width: 768px) {
+@media (max-device-width: $responsive) {
     .content {
         position: absolute;
         z-index: 100;

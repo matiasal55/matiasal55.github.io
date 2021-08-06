@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import workList from '../components/works.json';
 import Content from '../components/Content';
 import React from '../components/Knowledge/Technologies/React';
 import TechUsed from '../components/TechUsed';
@@ -7,14 +8,7 @@ import '../styles/_works-info.scss';
 const WorkInfo = () => {
     const { page } = useParams();
 
-    const data = {
-        title: 'Lorem Ipsum',
-        description:
-            'Ipsum culpa aliqua labore dolor do dolore. Sunt ullamco commodo laborum Lorem est consectetur anim ipsum magna anim. Tempor dolore dolore sit ullamco non ea. Lorem adipisicing pariatur in reprehenderit irure adipisicing nulla ipsum culpa non pariatur eu irure.',
-        img: 'https://picsum.photos/300/200',
-        web: 'https://picsum.photos',
-        tech: ['React', 'Bulma', 'MongoDB'],
-    };
+    const data = workList.find((data) => page === data.url);
 
     return (
         <Content page='work-info'>
@@ -35,7 +29,7 @@ const WorkInfo = () => {
             </div>
             <p>{data.description}</p>
             <div className='eng'>
-                <p>{data.description}</p>
+                <p>{data['description-eng']}</p>
             </div>
             <div>
                 <h3>Tecnologías usadas / Tools used:</h3>

@@ -1,23 +1,23 @@
 import Content from '../components/Content';
 import Card from '../components/WorkCard';
+import workList from '../components/works.json';
 import '../styles/_works.scss';
 
 const Works = () => {
-    const loremCard = {
-        title: 'Lorem Ipsum',
-        description: 'Lorem ipsum',
-        img: 'https://picsum.photos/300/200',
-        web: 'https://picsum.photos',
-    };
-
     return (
         <Content page='works'>
-            <h2>Trabajos / Works</h2>
-            <p>Trabajos realizados, tanto proyectos propios como los realizados para terceros.</p>
+            <h2>Trabajos</h2>
+            <h2>
+                <i>Works</i>
+            </h2>
+            <p>Lista de proyectos realizados, tanto personales como para terceros.</p>
+            <p>
+                <i>List of projects made. There are personal and for third parties</i>
+            </p>
             <div className='works-cards'>
-                <Card data={loremCard} />
-                <Card data={loremCard} />
-                <Card data={loremCard} />
+                {workList.map((work) => (
+                    <Card data={work} />
+                ))}
             </div>
         </Content>
     );

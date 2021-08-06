@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "CMFP 2",
+        "description": "Proyecto personal realizado para el Centro Municipal de Formación Profesional N° 2 - Manuel Belgrano, ubicado en Buenos Aires, Argentina. El mismo será donado a la institución una vez finalizado.",
+        "description-eng":"Personal projects made for Professional Training Center called Manuel Belgrano, from Buenos Aires, Argentina. The project will be donated to the institution when the project is finished.",
+        "img": "https://raw.githubusercontent.com/matiasal55/cmfp2-v2-front/main/screenshots/01%20-%20home.png",
+        "web": "https://cmfp2.vercel.app",
+        "url": "cmfp-2",
+        "tech": ["React", "Sass", "Node", "Express", "MongoDB"]
+    },
+    {
+        "id": 2,
+        "title": "Challenge Front Back",
+        "description": "Ejercicio realizado para una entrevista de trabajo y posteriormente mejorado y tomado como proyecto personal. Contiene proceso de registro, login y consulta de datos desde una API.",
+        "description-eng": "Challenge for an interview job and later it was improved and took as personal project. It contains register and login process and data query from an API.",
+        "img": "https://raw.githubusercontent.com/matiasal55/ejercicio-mern-front-back/master/screenshots/home.png",
+        "web": "https://ejercicio-mern-front-back.vercel.app/",
+        "url": "front-back",
+        "tech": ["React", "Bulma", "Node", "Express", "MongoDB"]
+    }
+]

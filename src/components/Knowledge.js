@@ -9,7 +9,10 @@ const Knowledge = () => {
 
     return (
         <div className='knowledge'>
-            <h2>Tecnologías / Knowledge:</h2>
+            <h2>Tecnologías</h2>
+            <h2>
+                <i>Knowledge</i>
+            </h2>
             <div>
                 <Frontend fill={fill} />
                 <Backend fill={fill} />

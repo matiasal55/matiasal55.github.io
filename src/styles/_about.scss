@@ -4,6 +4,14 @@
     background-color: white;
     color: $firstColor;
     width: 50vw;
+
+    .services {
+        margin-bottom: 2rem;
+
+        ul {
+            list-style: none;
+        }
+    }
 }
 
 .picture-about {

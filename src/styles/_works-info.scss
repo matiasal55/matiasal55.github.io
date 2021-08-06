@@ -5,7 +5,7 @@
     background-color: white;
 
     .work-info-img img {
-        width: 50%;
+        width: 75%;
         margin-bottom: 1rem;
     }
 }
@@ -28,5 +28,13 @@
         background: none;
         border: 1px solid $firstColor;
         margin-left: 0.5rem;
+    }
+}
+
+@media (max-device-width: $responsive) {
+    .content.work-info {
+        .work-info-img img {
+            width: 100%;
+        }
     }
 }

@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import workList from '../components/works.json';
 import Content from '../components/Content';
 import React from '../components/Knowledge/Technologies/React';
@@ -22,10 +22,15 @@ const WorkInfo = () => {
                     {data.web}
                 </a>
             </p>
-            <div className='button'>
-                <a href={data.web} target='_blank' rel='noreferrer'>
-                    Visitar / Visit
-                </a>
+            <div className='buttons'>
+                <div className='button'>
+                    <a href={data.web} target='_blank' rel='noreferrer'>
+                        Visitar / Visit
+                    </a>
+                </div>
+                <div className='button back'>
+                    <Link to='/works'>Volver / Back</Link>
+                </div>
             </div>
             <p>{data.description}</p>
             <div className='eng'>

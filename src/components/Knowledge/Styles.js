@@ -6,7 +6,7 @@ import Sass from './Technologies/Sass';
 const Styles = ({ fill = '#fff' }) => {
     return (
         <div>
-            <h3>Estilos / Styles:</h3>
+            <h3>Styles:</h3>
             <div className='icons'>
                 <Bootstrap fill={fill} />
                 <Bulma fill={fill} />

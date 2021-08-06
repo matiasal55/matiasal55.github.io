@@ -4,7 +4,7 @@ import MongoDB from './Technologies/MongoDB';
 const Database = ({ fill = '#fff' }) => {
     return (
         <div>
-            <h3>Bases de Datos / Databases:</h3>
+            <h3>Databases:</h3>
             <div className='icons'>
                 <MySQL fill={fill} />
                 <MongoDB fill={fill} />

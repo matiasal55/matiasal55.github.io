@@ -9,7 +9,7 @@ const WorkCard = ({ data }) => {
     const handleLeave = () => setActive(false);
 
     return (
-        <Link to={`/works/${data.title.toLowerCase().replace(' ', '-')}`}>
+        <Link to={`/works/${data.url}`}>
             <div className='work-card' onMouseEnter={handleEnter} onMouseLeave={handleLeave}>
                 <div className='work-card-img'>
                     <img src={data.img} alt={data.title} />
